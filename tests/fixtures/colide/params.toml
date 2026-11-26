@@ -1,0 +1,19 @@
+[medidas.width]
+valor = 40
+origem = "projeto"
+fonte = "desenho"
+
+[medidas.depth]
+valor = 30
+origem = "projeto"
+fonte = "desenho"
+
+[medidas.height]
+valor = 20
+origem = "projeto"
+fonte = "desenho"
+
+[medidas.hole_diameter]
+valor = 6
+origem = "estimada"
+nota = "medir com paquimetro"

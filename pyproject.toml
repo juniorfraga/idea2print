@@ -1,0 +1,41 @@
+[project]
+name = "idea2print"
+version = "0.1.0"
+description = "Idea to printable 3D file"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "cadquery",
+    "trimesh",
+    "manifold3d",
+    "matplotlib",
+    # llvmlite recente nao tem wheel para Mac Intel; numba<0.61 puxa llvmlite antigo
+    "numba<0.61; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    # nlopt 2.10+ has no Intel-Mac wheel; 2.9.1 does
+    "nlopt<2.10; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "shapely>=2.2.0",
+    "networkx>=3.7",
+    "rtree>=1.4.1",
+    "lxml>=6.1.3",
+]
+
+[project.scripts]
+idea2print = "idea2print.cli:main"
+
+[dependency-groups]
+dev = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["idea2print"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+    # SWIG bindings inside cadquery/OCP emit these on import; not ours to fix
+    "ignore:builtin type .* has no __module__ attribute:DeprecationWarning",
+]

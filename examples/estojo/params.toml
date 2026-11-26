@@ -1,0 +1,109 @@
+[medidas.vial_diameter]
+valor = 16.0
+origem = "informada"
+nota = "frasco 3 mL: régua ~15 mm; padrão ISO 2R = 16 mm; MakerWorld usa 16 mm (23/11/2026)"
+
+[medidas.vial_height]
+valor = 38.1
+origem = "informada"
+nota = "altura com tampa usada nos projetos MakerWorld de frasco 3 mL (ISO 2R: 35 mm sem tampa) (23/11/2026)"
+
+[medidas.vial_clearance]
+valor = 1.4
+origem = "estimada"
+nota = "validar no cupom de teste"
+
+[medidas.syringe_body_diameter]
+valor = 8.0
+origem = "informada"
+nota = "informada (23/11/2026): corpo 7 a 8 mm; usa 8 (validar aperto no cupom do clip)"
+
+[medidas.syringe_extended_length]
+valor = 144.0
+origem = "informada"
+nota = "medida (23/11/2026): seringa puxada 14,4 cm (fechada 11,2 cm); assumido com protetor da agulha"
+
+[medidas.syringe_clip_clearance]
+valor = 0.3
+origem = "estimada"
+nota = "validar no cupom de teste"
+
+[medidas.new_pack_length]
+valor = 144.0
+origem = "informada"
+nota = "informada (23/11/2026): embalagem lacrada é menor que a seringa puxada (144 mm); usa o mesmo comprimento"
+
+[medidas.new_pack_width]
+valor = 18.0
+origem = "informada"
+nota = "informada (23/11/2026): em geral vai sem embalagem; canal reserva espaço p/ uma lacrada"
+
+[medidas.new_pack_thickness]
+valor = 8.0
+origem = "informada"
+nota = "informada (23/11/2026): em geral vai sem embalagem; canal reserva espaço p/ uma lacrada"
+
+[medidas.alcohol_sachet_length]
+valor = 60.0
+origem = "informada"
+nota = "sachê padrão de lenço antisséptico (~6 x 3 cm)"
+
+[medidas.alcohol_sachet_width]
+valor = 30.0
+origem = "informada"
+nota = "sachê padrão de lenço antisséptico (~6 x 3 cm)"
+
+[medidas.alcohol_sachet_count]
+valor = 6
+origem = "informada"
+nota = "quantidade de projeto"
+
+[medidas.alcohol_sachet_thickness]
+valor = 2.0
+origem = "informada"
+nota = "sachê padrão (lenço antisséptico)"
+
+[medidas.wall_thickness]
+valor = 2.8
+origem = "informada"
+nota = "decisão de projeto"
+
+[medidas.floor_thickness]
+valor = 3.0
+origem = "informada"
+nota = "decisão de projeto"
+
+[medidas.corner_radius]
+valor = 7.0
+origem = "informada"
+nota = "decisão de projeto"
+
+[medidas.hinge_pin_diameter]
+valor = 1.75
+origem = "estimada"
+nota = "validar no cupom de teste"
+
+[medidas.hinge_clearance]
+valor = 0.45
+origem = "estimada"
+nota = "validar no cupom de teste"
+
+[medidas.latch_clearance]
+valor = 0.3
+origem = "estimada"
+nota = "validar no cupom de teste"
+
+[medidas.item_gap]
+valor = 3.0
+origem = "informada"
+nota = "decisão de projeto"
+
+[medidas.syringe_cap_length]
+valor = 25.0
+origem = "informada"
+nota = "informada (23/11/2026): protetor da agulha 2,5 cm"
+
+[medidas.syringe_barrel_length]
+valor = 80.0
+origem = "informada"
+nota = "informada (23/11/2026): corpo sem a parte da agulha 8 cm"
